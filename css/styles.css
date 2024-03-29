@@ -283,6 +283,7 @@ background-image: linear-gradient(rgba(46, 47, 66, 0.7),
     text-align: center;
     color: #2e2f42;
     margin-bottom: 72px;
+    background-color: #f4f4fd;
 }
 
 .team-list {
@@ -311,6 +312,7 @@ background-image: linear-gradient(rgba(46, 47, 66, 0.7),
 .team-item-title {
     padding-top: 32px;
     padding-bottom: 32px;
+    text-align: center;
 }
 
 .team-item-prof {
