@@ -383,6 +383,28 @@ background-image: linear-gradient(
     transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.port-img-text {
+    position: relative;
+    overflow: hidden;
+}
+
+.port-text {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #f4f4fd;
+    position: absolute;
+    top: 0;
+    background-color: #4d5ae5;
+    height: 100%;
+    padding-bottom: 164px;
+    padding: 40px 32px;
+    display: flex;
+    align-items: center;
+    transform: translateY(100%);
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
 .portfolio-list {
     display: flex;
     column-gap: 24px;
@@ -392,6 +414,8 @@ background-image: linear-gradient(
 
 .portfolio-item {
     width: calc((100% - 48px) / 3);
+    border-radius: 0px 0px 4px 4px;
+    position: relative;
 }
 
 .portfolio-caption {
@@ -425,8 +449,6 @@ background-image: linear-gradient(
 }
 
 .footer-logo {
-    display: inline-block;
-    margin-bottom: 16px;
     margin-right: 76px;
     font-family: "Raleway", sans-serif;
     font-weight: 700;
@@ -446,10 +468,48 @@ background-image: linear-gradient(
     color: #404bbf;
 }
 
+.soc-footer {
+    gap: 16px;
+    display: flex;
+}
+
+.soc-media {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #fff;
+    margin-bottom: 16px;
+}
+
 .footer-text {
+    font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #f4f4fd;
     max-width: 264px;
+    background-color: #2e2f42;
 }
+
+.footer-cont {
+    display: flex;
+    align-items: baseline;
+}
+.log-f {
+    display: inline-block;
+    margin-bottom: 16px;
+}
+
+.icon-footer {
+    margin-right: 120px;
+}
+
+.footer-soc-link {
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.footer-soc-link :hover,
+.footer-soc-link :focus {
+    background-color: #31d0aa;
